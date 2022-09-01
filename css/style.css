@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav .navbar-brand i {
+    color: #fff;
+}
+
+.nav-item .nav-link.active {
+    color: #fd5655;
+}
+
+.nav-item {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.navbar-nav .nav-item a {
+    color: #fff;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #fd5655;
+    transition: 0.3s ease;
+}
+
+.navbar {
+    background-color: #424242;
+}
+
+header {
+    background-image: url(../images/5.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+header .container {
+    position: relative;
+    top: 25%;
+}
+
+.search input {
+    background-color: #424242;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    color: #fd5655 !important;
+}
+
+.search input::placeholder {
+    color: #fd5655;
+}
+
+.search input:focus {
+    border: none;
+    outline: none;
+}
+
+.box {
+    background-color: #424242;
+    color: #fff;
+    margin-top: 40px;
+    height: 300px;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+
+.head-box {
+    justify-content: space-between;
+    background-color: #616060;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+}
+
+.box-content .info {
+    text-align: center;
+    font-size: 50px;
+}
+
+.box-content .degree-today {
+    margin-top: -15px;
+}
+
+.box-content .location {
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.position img {
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.box .content {
+    text-align: center;
+}
+
+.box .content .degree-today {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.box .content .sec-degree {
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+.box .content .tempr {
+    margin-top: -10px;
+}
+
+.fa-sun {
+    color: rgb(253, 253, 21);
+}
+
+.fa-moon {
+    color: rgb(193, 110, 248);
+}
+
+.tempr {
+    color: #fd5655;
+}
+
+.logo h1 {
+    color: #fd5655;
+    font-size: 24px;
+    margin-left: -5px;
+}
